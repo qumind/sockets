@@ -1,0 +1,9 @@
+set USE_ABILITY true
+trying to get count of fighters on arena
+trying to get fighter by name Josh
+adding fighter called Josh with parameters A 2 3 4 5
+get count of fighters on arena
+get fighter by name Josh
+remove fighter Josh
+trying to get fighter Josh
+get count of fighters on arena

@@ -1,0 +1,34 @@
+set USE_ABILITY to false
+getting count of fighters
+adding fighter whith name Josh and parameters A 100 3 4 5
+add fighter whith name Kel and parameters C 100 3 4 5
+add fighter whith name Nebula and parameters R 100 3 4 5
+add fighter whith name Spryte and parameters C 100 3 4 5
+add fighter whith name Vale and parameters R 100 3 4 5
+add fighter whith name Spen00 and parameters A 100 3 4 5
+
+resetting fighter Josh
+resetting fighter Kel
+resetting fighter Nebula
+resetting fighter Spryte
+resetting fighter Vale
+resetting fighter Spen00
+
+getting count of fighters
+start battle between Josh and Kel
+start battle between Nebula and Spryte
+start battle between Vale and Spen00
+getting fighter by name Josh
+getting fighter by name Kel
+getting fighter by name Nebula
+getting fighter by name Spryte
+getting fighter by name Vale
+getting fighter by name Spen00
+
+removing fighter by name Josh
+removing fighter by name Kel
+removing fighter by name Nebula
+removing fighter by name Spryte
+removing fighter by name Vale
+removing fighter by name Spen00
+getting count of fighters

@@ -1,0 +1,17 @@
+/home/data/Work/globalfreelance/184634/res/main.cpp: In function ‘int main()’:
+/home/data/Work/globalfreelance/184634/res/main.cpp:33:24: error: no matching function for call to ‘std::basic_ifstream<char>::open(const string&)’
+   ifs.open(fileArray[i]); // open the file to read from
+                        ^
+In file included from /home/data/Work/globalfreelance/184634/res/main.cpp:2:0:
+/usr/include/c++/5/fstream:595:7: note: candidate: void std::basic_ifstream<_CharT, _Traits>::open(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]
+       open(const char* __s, ios_base::openmode __mode = ios_base::in)
+       ^
+/usr/include/c++/5/fstream:595:7: note:   no known conversion for argument 1 from ‘const string {aka const std::__cxx11::basic_string<char>}’ to ‘const char*’
+/home/data/Work/globalfreelance/184634/res/main.cpp:34:33: error: no matching function for call to ‘std::basic_ofstream<char>::open(std::__cxx11::basic_string<char>)’
+   ofs.open("out_" + fileArray[i]); // open the file to write to
+                                 ^
+In file included from /home/data/Work/globalfreelance/184634/res/main.cpp:2:0:
+/usr/include/c++/5/fstream:799:7: note: candidate: void std::basic_ofstream<_CharT, _Traits>::open(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]
+       open(const char* __s,
+       ^
+/usr/include/c++/5/fstream:799:7: note:   no known conversion for argument 1 from ‘std::__cxx11::basic_string<char>’ to ‘const char*’
